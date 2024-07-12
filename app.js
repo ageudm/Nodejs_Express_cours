@@ -17,7 +17,7 @@ const names = require('./2-variables');
 const sayHelo = require('./3-utilits');
 const soma = require('./3-utilits');
 const person = require('./4-object-impport')
-
+require('./os-module')
 require('./3-utilits') //executar os dados de outro documento sem expotar
 
 
