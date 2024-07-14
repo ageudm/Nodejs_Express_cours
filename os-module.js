@@ -4,7 +4,7 @@ const os = require('os');
 //INFORMAÇÃO DO SISTEMA
 //=============================================================
 
-//metodo que fas a leitura dos dados do sistema
+//FASER A LEITURA DOS DADOS NO SISTEMA
 const systemData = () => {
     console.log('DADOS DO SYSTEMA');
     console.log('Nome do dispositivo: ' + os.hostname());
@@ -15,7 +15,7 @@ const systemData = () => {
     console.log('Tipo de sistema: ' + os.type())
 };
 
-//verificar em quanto tempo o computador esta ligado
+//VERIFICAR O TEMPO DE EXCUÇÃO DO SISTEMA
 const systemUptme = () => {
     const upTimeSeconds = os.uptime(); //retorna op tempo de excução em segundos
     const upTimeMinute = upTimeSeconds / 60; //retorna o tempo de execuçãompor minutos
