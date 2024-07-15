@@ -19,6 +19,8 @@
 // const person = require('./4-object-impport')
 // require('./os-module')
 // require('./3-utilits') //executar os dados de outro documento sem expotar
-require('./path-moduls');
+// require('./path-moduls');
+require('./fs-module');
+
 
 
